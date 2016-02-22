@@ -26,24 +26,6 @@
     </bean>
 
     <mvc:annotation-driven />
-    <!--
-        <bean id="tomatoService" class="org.mockito.Mockito" factory-method="mock">
-            <constructor-arg value="com.relay42.core.tomato.service.TomatoService"/>
-        </bean>
-
-        <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
-            <property name="objectMapper">
-                <bean class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean"
-                      p:failOnEmptyBeans="false"
-                      p:indentOutput="true">
-                    <property name="serializers">
-                        <array>
-                            <bean class="com.relay42.web.serializer.TomatoSerializer" />
-                        </array>
-                    </property>
-                </bean>
-            </property>
-        </bean>-->
 
 
 
