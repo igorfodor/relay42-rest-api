@@ -70,7 +70,7 @@
 
   </dependencies>
   <build>
-    <finalName>relay42</finalName>
+    <finalName>tomato-rest</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
