@@ -6,7 +6,7 @@ Compile the app with maven ```mvn install``` and copy the war file ```tomato-res
 
 With default tomcat setting the app should be deployed under:
 
-```http://localhost:8080/tomato-rest/tomatoes/data```
+http://localhost:8080/tomato-rest/tomatoes/data
 
 
 ## Usage
