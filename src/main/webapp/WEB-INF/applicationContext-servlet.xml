@@ -26,29 +26,5 @@
         </property>
     </bean>
 
-    <bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix">
-            <value>/WEB-INF/templates</value>
-        </property>
-        <property name="suffix">
-            <value>.html</value>
-        </property>
-    </bean>
-<!--
-    <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
-        <property name="objectMapper">
-            <bean class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean"
-                  p:failOnEmptyBeans="false"
-                  p:indentOutput="true">
-                <property name="serializers">
-                    <array>
-                        <bean class="com.relay42.web.serializer.TomatoSerializer" />
-                    </array>
-                </property>
-            </bean>
-        </property>
-    </bean>-->
-
 
 </beans>
